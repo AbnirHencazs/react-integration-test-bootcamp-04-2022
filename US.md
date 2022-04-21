@@ -13,6 +13,7 @@ of inspiring me to be better professional.
   - The Search Button.
 
 - The results section should contain:
+
   - Before the first search, show the initial state message “Please provide a
     search option and click in the search button”.
   - The search button should be disabled until the search is done.
@@ -22,13 +23,9 @@ of inspiring me to be better professional.
   - Each result should have: owner avatar image, name, stars, updated at, forks,
     open issues. It should have a link that opens in a new tab the github
     repository selected.
-  - Show 30 results per page.
   - If there is no results, then show a empty state message “You search has no
     results”
-- Handling filter:
-  - If the developer types "ruby" in the filter by repository name input and
-    clicks on search, the app should return repositories with the "ruby" word
-    associated.
+
 - Handling errors:
   - If there is an unexpected error from the backend, the app should display an
     alert message error with the message from the service if any, if not show

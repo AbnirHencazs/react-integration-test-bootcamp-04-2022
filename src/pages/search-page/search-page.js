@@ -44,7 +44,7 @@ export const SearchPage = () => {
     <Container>
       <Box my={4}>
         <Typography variant="h3" component="h1">
-          Github repositories list page
+          Github Repositories List Page
         </Typography>
       </Box>
 
